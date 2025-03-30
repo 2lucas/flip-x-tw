@@ -4,7 +4,7 @@ let backgroundImg = new Image();
 backgroundImg.src = "./Images/flappybirdbg.png";
 let inputLocked = false;
 
-const oauthTwitterUrl = "http://oauth-twitter-cyan.vercel.app/api";
+const oauthTwitterUrl = "https://oauth-twitter-cyan.vercel.app/api";
 
 document.addEventListener("keydown", handleKeyDown);
 
